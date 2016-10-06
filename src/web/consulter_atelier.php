@@ -144,5 +144,5 @@ echo '<table  border="1">';
 echo '</table>';
 
 
-echo '<p style="color:red;"><a href=../gestion_atelier.php> Retour </a></p>'; 	
+echo '<p style="color:red;"><a href=./gestion_atelier.php> Retour </a></p>'; 	
 ?>

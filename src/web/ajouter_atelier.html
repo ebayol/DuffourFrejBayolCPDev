@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Formulaire pour Ajouter un Atelier 
+-->
+
+
+
+<html>
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="fr" />
+
+ 
+<title>
+  Ajouter un atelier
+</title>
+
+</head>
+
+
+
+<body>
+
+
+           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Acceuil</a>
+                    </li>
+                    <li>
+                        <a href="gestion_atelier.php">Gestion d'ateliers</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+<H1> Ajouter un atelier </H1>
+
+<FORM method="get" action="ajouter_atelier.php">
+    <P>
+	<LABEL for="titre">Titre : </LABEL>
+              <INPUT type="text" id="titre" name="titre"><BR>
+
+	<LABEL for="theme">Théme : </LABEL>
+              <INPUT type="text" id="theme" name="theme"><BR>
+
+
+ 	<LABEL for="type">Type : </LABEL>
+              <INPUT type="text" id="type" name="type"><BR>
+
+ 	<LABEL for="laboratoire">Laboratoire : </LABEL>
+              <INPUT type="text" id="laboratoire" name="laboratoire"><BR>
+
+	 <LABEL for="lieu">Lieu: </LABEL><BR>
+     	      <textarea name="lieu" id="lieu" name="lieu"></textarea><BR>
+
+	<LABEL for="duree">Durée (min) : </LABEL>
+              <INPUT type="text" id="duree" name="duree"><BR>
+
+	<LABEL for="capacite">Capacité : </LABEL>
+              <INPUT type="text" id="capacite" name="capacite"><BR>
+
+	 <LABEL for="animateur">Animateur : </LABEL><BR>
+     	      <textarea name="animateur" id="animateur" name="animateur"></textarea><BR>
+
+
+	 <LABEL for="contenu">Contenu pédagogique : </LABEL><BR>
+     	      <textarea name="contenu" id="contenu" name="contenu"></textarea><BR>
+
+	<BR>
+
+    <INPUT type="submit" value="Ajouter"> <INPUT type="reset">
+    </P>
+ </FORM>
+
+
+
+</body>
+</html>
